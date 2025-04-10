@@ -1,0 +1,44 @@
+img {
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+
+  table, th, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+  }
+  button {
+    cursor: pointer;
+  }
+
+
+  .immg{
+    
+        width: 300px;
+        height: auto;
+        cursor: pointer;
+      
+  }
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  #counter {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+  }

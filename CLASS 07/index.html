@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <a href="#" onclick="showAlert(); return false;">Click me!</a>
+
+
+     <!-- Mobile Images -->
+  <img width="300" src="https://sparx.pk/cdn/shop/files/Edge-20-Pro-Sparkling-Blue.jpg?v=1721641402" alt="Mobile 1" id="mobile1">
+  <img width="300" src="https://image.made-in-china.com/2f0j00VKLhUuQrIWbR/Factory-Supply-S21-Mobile-Phone-Large-Memory-24-48MP-High-Resolution-Cellphone-7-2-Inch-Big-Screen-Dual-SIM-Card-Phone.webp" alt="Mobile 2" id="mobile2">
+
+  <img width="300" src="https://opsg-img-cdn-gl.heytapimg.com/epb/202412/19/AceLeaXtntKw1AZf.png" alt="Mobile 3" id="mobile3">
+  
+
+
+  <h2>Student Records</h2>
+  
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 10 sample records -->
+      <tr>
+        <td>1</td>
+        <td>Moiz</td>
+        <td>18</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Hammad</td>
+        <td>19</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Hadi</td>
+        <td>17</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Noor</td>
+        <td>20</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Rohan</td>
+        <td>18</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Ahmed</td>
+        <td>19</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>ALee</td>
+        <td>17</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>misbah</td>
+        <td>18</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>9</td>
+<td>rafay</td>      
+  <td>20</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Aliyan</td>
+        <td>19</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Hover over the image to change it</h2>
+
+  <img 
+  class="immg"
+    id="myImage" 
+    src="https://via.placeholder.com/300x200.png?text=Original+Image" 
+    onmouseover="changeImage()" 
+    onmouseout="resetImage()" 
+    alt="Image"
+  />
+
+
+
+  <h2>Simple Counter</h2>
+  <div id="counter">0</div>
+
+  <button class="btn" onclick="increase()">Increase</button>
+  <button class="btn" onclick="decrease()">Decrease</button>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
